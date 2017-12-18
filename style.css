@@ -1,0 +1,64 @@
+html {
+
+}
+body {
+  width: 80%;
+  margin:0 auto;
+}
+header {
+  background: teal;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+  color: white;
+  overflow: hidden;
+  list-style: none;
+}
+
+header ul li {
+  background: salmon;
+  float: left;
+  border-right: 2px solid white;
+}
+header ul li:last-child {
+  border: none;
+}
+
+header ul li a {
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+}
+header ul li a:hover {
+
+}
+
+.contentbox {
+  overflow: hidden;
+}
+.content {
+  float: left;
+  width: 70%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+footer {
+  clear: both;
+  background: tomato;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
